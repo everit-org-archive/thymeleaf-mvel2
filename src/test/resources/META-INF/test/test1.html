@@ -1,0 +1,17 @@
+<html>
+<body>
+
+  <p data-th-text="${sentence}"></p>
+  <div data-th-with="localVar = ${sentence}">
+    <p data-th-text="${localVar}">Sentence from local var</p>
+  </div>
+  
+  <p data-th-text="${dates.format(now, 'dd/MMM/yyyy HH:mm')}">Current date</p>
+  <div data-th-object="${users.get(0)}">
+    <span data-th-text="*{object.name}">Name</span>
+  </div>
+  <p data-th-text="${someValue}">fff</p>
+  <p data-th-text="2013 + 2">2013 + 2</p>
+  
+</body>
+</html>
