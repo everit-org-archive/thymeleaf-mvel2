@@ -86,7 +86,7 @@
         <extensions>true</extensions>
         <configuration>
           <instructions>
-            <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+            <Bundle-SymbolicName>${project.artifactId}.expression</Bundle-SymbolicName>
             <Import-Package>
               *
             </Import-Package>
