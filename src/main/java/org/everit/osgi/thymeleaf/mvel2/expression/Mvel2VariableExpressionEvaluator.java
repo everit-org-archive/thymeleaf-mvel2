@@ -52,7 +52,6 @@ public class Mvel2VariableExpressionEvaluator implements IStandardVariableExpres
         return Collections.emptyMap();
     }
 
-    @Override
     public Object evaluate(Configuration configuration, IProcessingContext processingContext, String expression,
             StandardExpressionExecutionContext expContext, boolean useSelectionAsRoot) {
 

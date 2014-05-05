@@ -44,7 +44,7 @@ public class ThymeleafMvelTest {
         vars.put("now", new Date());
         vars.put("sentence", "Hello world");
         vars.put("someValue", "Some value");
-        List<UserDTO> users = new ArrayList<>();
+        List<UserDTO> users = new ArrayList<UserDTO>();
         users.add(new UserDTO("John", 30));
         users.add(new UserDTO("Garfield", 5));
         vars.put("users", users);
